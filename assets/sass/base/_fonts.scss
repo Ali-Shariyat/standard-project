@@ -1,0 +1,17 @@
+@include font-face(poppins, '../../fonts/poppins/PoppinsLatin-Regular', normal, normal, ttf);
+
+[class^="icon-"], [class*=" icon-"] {
+  display: inline-flex;
+  &::before{
+    font-family: icon-font, $default-fonts;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
